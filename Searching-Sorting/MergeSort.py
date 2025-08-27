@@ -1,3 +1,5 @@
+#merge sort algorithm
+
 def Merge(left,right):
     
 
