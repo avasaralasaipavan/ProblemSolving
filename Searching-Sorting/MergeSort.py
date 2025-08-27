@@ -34,7 +34,7 @@ def MergeSort(arr):
     left = MergeSort(left)
     right = MergeSort(right)
 
-    return Merge(left,right)
+    return Merge(left,right)  
 
 
 print(MergeSort([5,4,3,2,1]))
