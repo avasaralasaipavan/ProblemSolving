@@ -10,7 +10,7 @@ def generatePermutations(nums,idx,result,hMap):
         generatePermutations(nums,idx+1,result,hMap)
         nums[i],nums[idx] = nums[idx],nums[i]
 
-result = []
+result = []  ## aded comment
 hMap = {}
 generatePermutations([1,1,2],0,result,hMap)
 print(result)
