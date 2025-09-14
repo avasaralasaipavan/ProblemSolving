@@ -12,5 +12,7 @@ def generatePermutations(nums,idx,result,hMap):
 
 result = []
 hMap = {}  #added changes 
+result = []  ## aded comment
+hMap = {}
 generatePermutations([1,1,2],0,result,hMap)
 print(result)
