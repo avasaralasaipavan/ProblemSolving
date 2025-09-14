@@ -11,6 +11,6 @@ def generatePermutations(nums,idx,result,hMap):
         nums[i],nums[idx] = nums[idx],nums[i]
 
 result = []
-hMap = {}
+hMap = {}  #added changes
 generatePermutations([1,1,2],0,result,hMap)
 print(result)
