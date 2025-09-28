@@ -28,4 +28,4 @@ def atMostKDistinct(nums, k):
 def subarraysWithKDistinct(nums, k):
     return atMostKDistinct(nums, k) - atMostKDistinct(nums, k - 1)
 
-print(subarraysWithKDistinct([1,2,1,2,3],2))
+print(subarraysWithKDistinct([1,2,1,2,3],2))  
