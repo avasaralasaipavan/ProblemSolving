@@ -22,6 +22,23 @@ def Logic2(arr,index,curr):
 
     return ""
 
-print(Logic2([1,2,3,4],0,[]))
+def subsets(arr,current,start,result):
+    
+    result.append(current[:])
+
+    if current == len(arr):
+        #print(current)
+        return
+
+    for i in range(start,len(arr)):
+        current.append(arr[i])
+        subsets(arr,current,i+1,result)
+        current.pop()
+
+result = []
+subsets([1,2,2],[],0,result)
+print(result)
+
+
         
 
