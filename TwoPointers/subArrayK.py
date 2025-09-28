@@ -22,7 +22,7 @@ def atMostKDistinct(nums, k):
        
         result += end - start + 1
 
-    return result
+    return result  
 
 
 def subarraysWithKDistinct(nums, k):
